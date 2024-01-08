@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.filemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+12-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:6:5-75
+12-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:6:22-72
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:7:5-75
+13-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:8:5-82
+14-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:8:22-79
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.filemanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.filemanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
+20-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+22    <application
+22-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:13:5-42:19
+23        android:allowBackup="true"
+23-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:14:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\muraw\.gradle\caches\transforms-3\4f144917642e7cf2dcc7fea15e15ed71\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:15:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:16:9-54
+29        android:icon="@mipmap/ic_launcher2"
+29-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:17:9-44
+30        android:label="@string/app_name"
+30-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:18:9-41
+31        android:roundIcon="@mipmap/ic_launcher2"
+31-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:19:9-49
+32        android:supportsRtl="true"
+32-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:20:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.FileManager" >
+34-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:21:9-49
+35        <activity
+35-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:23:9-31:20
+36            android:name="com.example.filemanager.MainActivity"
+36-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:24:13-41
+37            android:exported="true" >
+37-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:25:13-36
+38            <intent-filter>
+38-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:26:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:27:17-69
+39-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:29:17-77
+41-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+46            android:name="androidx.core.content.FileProvider"
+46-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:34:13-62
+47            android:authorities="com.example.filemanager.provider"
+47-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:33:13-60
+48            android:exported="false"
+48-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:35:13-37
+49            android:grantUriPermissions="true" >
+49-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:36:13-47
+50            <meta-data
+50-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:37:13-40:25
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:37:24-74
+52                android:resource="@xml/provider_path" >
+52-->C:\Users\muraw\AndroidStudioProjects\FileManager\app\src\main\AndroidManifest.xml:38:17-54
+53            </meta-data>
+54        </provider>
+55
+56        <activity
+56-->[com.karumi:dexter:6.2.3] C:\Users\muraw\.gradle\caches\transforms-3\e7bfcf848c017766f439d0df36020f55\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+57            android:name="com.karumi.dexter.DexterActivity"
+57-->[com.karumi:dexter:6.2.3] C:\Users\muraw\.gradle\caches\transforms-3\e7bfcf848c017766f439d0df36020f55\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+58            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+58-->[com.karumi:dexter:6.2.3] C:\Users\muraw\.gradle\caches\transforms-3\e7bfcf848c017766f439d0df36020f55\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.example.filemanager.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\muraw\.gradle\caches\transforms-3\293637d11c7a84493c5851449fc33290\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\muraw\.gradle\caches\transforms-3\cdd84186d9ec1ceea4fabba28ab9cde1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\muraw\.gradle\caches\transforms-3\cdd84186d9ec1ceea4fabba28ab9cde1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\muraw\.gradle\caches\transforms-3\cdd84186d9ec1ceea4fabba28ab9cde1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+72                android:value="androidx.startup" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+73        </provider>
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\muraw\.gradle\caches\transforms-3\134e50b543e4d6d74efba5bd394e9c92\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>
