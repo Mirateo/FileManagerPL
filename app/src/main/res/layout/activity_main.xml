@@ -18,6 +18,8 @@
             android:elevation="4dp"
             android:background="@color/main_blue"
             app:titleTextColor="@color/white"
+            app:subtitleTextColor="@color/white"
+            app:subtitle="Copyright \u00a9 2023 Mateusz Murawski"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize">
         </androidx.appcompat.widget.Toolbar>
